@@ -29,5 +29,5 @@ Uses `tape-run` for tests in a browser. See [template-ts](https://github.com/nic
 * eslint -- `npm run lint`
 * tests run in a browser environment via `tape-run` -- see [`npm test`](./package.json#L12).
   Includes `tap` testing tools -- [tapzero](https://github.com/bicycle-codes/tapzero)
-  and [tap-arc](https://www.npmjs.com/package/tap-arc)
+  and [tap-spec](https://www.npmjs.com/package/tap-spec)
 * CI via github actions
