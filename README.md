@@ -1,9 +1,4 @@
 # template ts browser
-![tests](https://github.com/nichoth/template-ts-browser/actions/workflows/nodejs.yml/badge.svg)
-[![types](https://img.shields.io/npm/types/@nichoth/catch-links?style=flat-square)](README.md)
-[![module](https://img.shields.io/badge/module-ESM%2FCJS-blue?style=flat-square)](README.md)
-[![semantic versioning](https://img.shields.io/badge/semver-2.0.0-blue?logo=semver&style=flat-square)](https://semver.org/)
-[![license](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE)
 
 A template for typescript *dependency* modules that run in a browser environment.
 Uses `tape-run` for tests in a browser. See [template-ts](https://github.com/nichoth/template-ts) for the same thing but targeting Node.
@@ -15,6 +10,14 @@ Uses `tape-run` for tests in a browser. See [template-ts](https://github.com/nic
 2. Edit the source code in `src/index.ts`.
 
 3. Delete either `.github/workflows/gh-pages-docs.yml` or `.github/workflows/gh-pages.yml`, depending on whether you want to deploy an example or docs to github pages.
+
+4. __Edit things__
+    * Use `./README.example.md` as a starter for docs:
+    ```sh
+    cp ./README.example.md ./README.md
+    ```
+    * edit the [build-example](https://github.com/nichoth/template-web-component/blob/c580636f1c912fe2633f7c2478f28b11729c9b80/package.json#L20) command in `package.json` so that it has the right
+    namespace for github pages
 
 ## featuring
 
