@@ -31,7 +31,7 @@
     "@bicycle-codes/debug": "^0.6.13",
     "@preact/preset-vite": "^2.9.0",
     "@typescript-eslint/eslint-plugin": "^8.0.0",
-    "@typescript-eslint/parser": "^7.9.0",
+    "@typescript-eslint/parser": "^8.0.0",
     "auto-changelog": "^2.4.0",
     "esbuild": "^0.23.0",
     "eslint": "^8.57.0",
