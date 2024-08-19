@@ -25,10 +25,9 @@
     "postversion": "git push --follow-tags && npm publish",
     "prepublishOnly": "npm run build"
   },
-  "dependencies": {},
   "devDependencies": {
-    "@bicycle-codes/tapzero": "^0.10.3",
     "@bicycle-codes/debug": "^0.6.13",
+    "@bicycle-codes/tapzero": "^0.10.3",
     "@preact/preset-vite": "^2.9.0",
     "@typescript-eslint/eslint-plugin": "^8.0.0",
     "@typescript-eslint/parser": "^8.0.0",
@@ -37,6 +36,7 @@
     "eslint": "^8.57.0",
     "eslint-config-standard": "^17.1.0",
     "htm": "^3.1.1",
+    "markdown-toc": "^1.2.0",
     "postcss-nesting": "^13.0.0",
     "preact": "^10.22.1",
     "tap-spec": "^5.0.0",
