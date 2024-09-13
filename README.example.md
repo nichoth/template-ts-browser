@@ -1,5 +1,5 @@
 # package name here
-![tests](https://github.com/substrate-system/icons/actions/workflows/nodejs.yml/badge.svg)
+![tests](https://flat.badgen.net/github/checks/bicycle-codes/crypto-util/main/nodejs)
 [![types](https://img.shields.io/npm/types/@substrate-system/icons?style=flat-square)](README.md)
 [![module](https://img.shields.io/badge/module-ESM%2FCJS-blue?style=flat-square)](README.md)
 [![semantic versioning](https://img.shields.io/badge/semver-2.0.0-blue?logo=semver&style=flat-square)](https://semver.org/)
