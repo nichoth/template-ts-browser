@@ -13,6 +13,13 @@
   ],
   "rules": {
     "@typescript-eslint/no-explicit-any": "off",
+    "@typescript-eslint/type-annotation-spacing": [
+      "error",
+      {
+        "before": false,
+        "after": false
+      }
+    ],
     "@typescript-eslint/no-unused-vars": [
       "error",
       {
