@@ -12,7 +12,9 @@
 
 [See a live demo](https://namespace.github.io/package-name/)
 
+<details><summary><h2>Contents</h2></summary>
 <!-- toc -->
+</details>
 
 ## install
 
