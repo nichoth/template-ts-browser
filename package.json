@@ -27,8 +27,8 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "@substrate-system/debug": "^0.6.13",
-    "@bicycle-codes/tapzero": "^0.10.3",
+    "@substrate-system/debug": "^0.7.2",
+    "@substrate-system/tapzero": "^0.10.3",
     "@preact/preset-vite": "^2.9.0",
     "@typescript-eslint/eslint-plugin": "^8.0.0",
     "@typescript-eslint/parser": "^8.0.0",
