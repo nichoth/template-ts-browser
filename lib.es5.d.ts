@@ -17,3 +17,5 @@ interface Array<T> {
   filter<S extends T>(predicate: BooleanConstructor, thisArg?: any)
     : Exclude<S, Falsy>[];
 }
+
+type WithOptional<T, K extends keyof T> = Omit<T, K> & Partial<Pick<T, K>>;
