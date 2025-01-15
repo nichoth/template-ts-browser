@@ -19,3 +19,5 @@ interface Array<T> {
 }
 
 type WithOptional<T, K extends keyof T> = Omit<T, K> & Partial<Pick<T, K>>;
+
+type PartialExcept<T, K extends keyof T> = Partial<T> & Pick<Required<T>, K>;
