@@ -60,7 +60,7 @@
     "tape-run": "^11.0.0",
     "typedoc": "^0.28.1",
     "typescript": "^5.7.2",
-    "vite": "^6.0.7"
+    "vite": "^7.0.0"
   },
   "author": "nichoth <nichoth@nichoth.com> (https://nichoth.com)",
   "license": "MIT"
