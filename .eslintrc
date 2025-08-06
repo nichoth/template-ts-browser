@@ -12,20 +12,6 @@
     "@typescript-eslint"
   ],
   "rules": {
-    "max-len": ["error", { "code": 80 }],
-    "@typescript-eslint/type-annotation-spacing": [
-      "error",
-      {
-        "before": false,
-        "after": false,
-        "overrides": {
-          "colon": {
-            "before": false,
-            "after": false
-          }
-        }
-      }
-    ],
     "@typescript-eslint/no-explicit-any": "off",
     "@typescript-eslint/no-unused-vars": [
       "error",
