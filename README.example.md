@@ -5,7 +5,7 @@
 [![semantic versioning](https://img.shields.io/badge/semver-2.0.0-blue?logo=semver&style=flat-square)](https://semver.org/)
 [![Common Changelog](https://nichoth.github.io/badge/common-changelog.svg)](./CHANGELOG.md)
 [![install size](https://flat.badgen.net/packagephobia/install/@nichoth/session-cookie)](https://packagephobia.com/result?p=@nichoth/session-cookie)
-[![gzip size](https://img.shields.io/bundlephobia/minzip/@substrate-system/package?style=flat-square)](https://bundlephobia.com/@substrate-system/name/package/route-event)
+[![gzip size](https://flat.badgen.net/bundlephobia/minzip/@substrate-system/routes)](https://bundlephobia.com/package/@substrate-system/routes)
 [![dependencies](https://img.shields.io/badge/dependencies-zero-brightgreen.svg?style=flat-square)](package.json)
 [![license](https://img.shields.io/badge/license-Big_Time-blue?style=flat-square)](LICENSE)
 
@@ -18,7 +18,7 @@
 <!-- toc -->
 </details>
 
-## install
+## Install
 
 Installation instructions
 
@@ -26,7 +26,17 @@ Installation instructions
 npm i -S @namespace/package
 ```
 
-## API
+## Example
+
+`usage instructions here`
+
+### JS
+```js
+import '@namespace/package/module'
+```
+
+
+## Modules
 
 This exposes ESM and common JS via [package.json `exports` field](https://nodejs.org/api/packages.html#exports).
 
@@ -59,15 +69,6 @@ import '@namespace/package-name/css/min'
 component-name {
     --example: pink;
 }
-```
-
-## use
-
-`usage instructions here`
-
-### JS
-```js
-import '@namespace/package/module'
 ```
 
 ### pre-built JS
