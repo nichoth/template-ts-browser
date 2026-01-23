@@ -1,6 +1,5 @@
 import { defineConfig } from 'vite'
 import preact from '@preact/preset-vite'
-import postcssNesting from 'postcss-nesting'
 
 // https://vitejs.dev/config/
 export default defineConfig({
@@ -23,11 +22,12 @@ export default defineConfig({
     },
     publicDir: '_public',
     css: {
-        postcss: {
-            plugins: [
-                postcssNesting
-            ],
-        },
+        transformer: 'lightningcss',
+        lightningcss: {
+            drafts: {
+                nesting: true
+            }
+        }
     },
     server: {
         port: 8888,
@@ -36,6 +36,7 @@ export default defineConfig({
     },
     build: {
         minify: false,
+        cssMinify: 'lightningcss',
         outDir: '../public',
         emptyOutDir: true,
         sourcemap: 'inline'
