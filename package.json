@@ -39,7 +39,6 @@
     "postversion": "git push --follow-tags && npm publish",
     "prepublishOnly": "npm run build"
   },
-  "dependencies": {},
   "devDependencies": {
     "@preact/preset-vite": "^2.10.5",
     "@substrate-system/debug": "^0.9.64",
@@ -48,11 +47,11 @@
     "auto-changelog": "^2.4.0",
     "browserslist": "^4.28.1",
     "esbuild": "^0.27.0",
-    "eslint": "^9.39.4",
+    "eslint": "^10.6.0",
     "htm": "^3.1.1",
     "lightningcss": "^1.30.2",
     "markdown-toc": "^1.2.0",
-    "neostandard": "^0.13.0",
+    "newneostandard": "^0.14.1",
     "preact": "^10.29.3",
     "tap-spec": "^5.0.0",
     "typedoc": "^0.28.9",
